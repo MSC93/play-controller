@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+
+    <!-- BOX-ICONS
+     -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>playstation controller</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img
+          src="./Playstation_Img/logo.png"
+          alt="playstationlogo"
+          class="logo"
+        />
+        <nav>
+          <ul id="menuList">
+            <li><a href="#">Game Controller</a></li>
+            <li><a href="#">VR Accesories</a></li>
+            <li><a href="#">Media Remotes</a></li>
+            <li><a href="#">Others</a></li>
+          </ul>
+        </nav>
+        <img
+          src="./Playstation_Img/menu.png"
+          alt="menu logo"
+          class="menu-icon"
+          onclick="toggleMenu()"
+        />
+      </div>
+
+      <div class="row">
+        <div class="col-1">
+          <h2>PS5 <br />DualSence</h2>
+          <h3>Wireless Controller for Playstation 5</h3>
+          <p>In Stock</p>
+          <h4>$69.98</h4>
+          <a
+            class="link-amazon"
+            href="https://www.amazon.com/DualSense-Wireless-Controller-PlayStation-5/dp/B08FC6C75Y/ref=sr_1_1?dchild=1&keywords=Ps5+Controller&qid=1615855427&sr=8-1"
+            target="_blank"
+          >
+            <button type="button">
+              Buy Now <img src="./Playstation_Img/arrow.png" />
+            </button>
+          </a>
+        </div>
+        <div class="col-2">
+          <img src="./Playstation_Img/p7.png" class="controller" />
+          <div class="color-box"></div>
+          <div class="add-btn">
+            <img src="./Playstation_Img/add.png" />
+            <p><small>Add to cart</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="social-links">
+        <i class="bx bxl-facebook-circle icon-icon"></i>
+        <i class="bx bxl-twitter icon-icon"></i>
+        <i class="bx bxl-instagram-alt icon-icon"></i>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
